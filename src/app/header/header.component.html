@@ -2,9 +2,17 @@
     <div class="logo">Barberia Grupo 6</div>
     <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Registro</a></li>
-        <li><a href="#">Iniciar sesión</a></li>
+        <li>
+            <a  routerLinkActive="active" [routerLink]="['login']">Inicio</a>
+        </li>
+        
+        <li>
+            <a  routerLinkActive="active" [routerLink]="['registro']">Registro</a>
+        </li>
+        
+        <li>
+            <a  routerLinkActive="active" [routerLink]="['login']">Iniciar sesión</a>
+        </li>
       </ul>
     </nav>
   </header>
