@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #70e0fc;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+    color: white;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  
