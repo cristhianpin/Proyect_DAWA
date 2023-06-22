@@ -1,0 +1,35 @@
+<h1>Cortes disponibles</h1>
+
+<div class="button-container">
+  <button (click)="cabello_E()">Cortes de Cabello</button>
+  <button (click)="barba_E()">Cortes de Barba</button>
+</div>
+
+<div class="grid-container" *ngIf="cabello">
+  <div class="grid-container">
+    <div class="grid-item" *ngFor="let corte of getCortesCategoria('Cabello')">
+      <div class="producto-container">
+        <img [src]="corte.imagen" alt="Imagen del producto" class="product-image">
+        <h2 class="product-name">{{ corte.nombre }}</h2>
+        <div class="product-details">
+          <p class="product-price">Precio: <strong>${{ corte.precio }}</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-container" *ngIf="barba">
+  <div class="grid-container">
+    <div class="grid-item" *ngFor="let corte of getCortesCategoria('Barba')">
+      <div class="producto-container">
+        <img [src]="corte.imagen" alt="Imagen del producto" class="product-image">
+        <h2 class="product-name">{{ corte.nombre }}</h2>
+        <div class="product-details">
+          <p class="product-price">Precio: <strong>${{ corte.precio }}</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

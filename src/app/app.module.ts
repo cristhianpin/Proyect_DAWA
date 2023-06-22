@@ -15,6 +15,9 @@ import { ReservaCitasComponent } from './reserva-citas/reserva-citas.component';
 import { CitasComponent } from './citas/citas.component';
 import { CitasadminComponent } from './citasadmin/citasadmin.component';
 import { NavbarInternComponent } from './navbar-intern/navbar-intern.component';
+import { CortesComponent } from './servicios/cortes/cortes.component';
+import { PeluquerosComponent } from './servicios/peluqueros/peluqueros.component';
+import { ProductosComponent } from './servicios/productos/productos.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { NavbarInternComponent } from './navbar-intern/navbar-intern.component';
     CitasComponent,
     CitasadminComponent,
     NavbarInternComponent,
+    CortesComponent,
+    PeluquerosComponent,
+    ProductosComponent,
 
   ],
   imports: [
