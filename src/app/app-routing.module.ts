@@ -8,6 +8,7 @@ import { CitasComponent } from '../app/citas/citas.component'
 import { CortesComponent } from './servicios/cortes/cortes.component';
 import { PeluquerosComponent } from './servicios/peluqueros/peluqueros.component';
 import { ProductosComponent } from './servicios/productos/productos.component';
+import { NavbarInternComponent } from './navbar-intern/navbar-intern.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -17,7 +18,10 @@ const routes: Routes = [
   {path: 'reservas', component: CitasComponent},
   {path: 'cortes', component: CortesComponent},
   {path: 'peluqueros', component: PeluquerosComponent},
-  {path: 'productos', component: ProductosComponent}
+  {path: 'productos', component: ProductosComponent},
+  {path: 'navbar', component: NavbarInternComponent},
+  { path: '**', redirectTo: 'home' } // Redireccionar a login en caso de ruta desconocida
+
 ];
 
 @NgModule({

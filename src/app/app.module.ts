@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatIconModule } from '@angular/material/icon';
 import {MatTableModule} from '@angular/material/table';
+import {  FormsModule,ReactiveFormsModule } from '@angular/forms';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,7 +42,12 @@ import { ProductosComponent } from './servicios/productos/productos.component';
     BrowserModule,
     AppRoutingModule,
     MatTableModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule,
+    
+    
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

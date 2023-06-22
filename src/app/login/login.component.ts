@@ -18,7 +18,7 @@ export class LoginComponent {
 
   login() {
 
-    this.router.navigate(['../reserva-citas/']); // Navegar a la página de inicio
+    this.router.navigate(['/cortes']); // Navegar a la página de inicio
 
 
   }
