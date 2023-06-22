@@ -4,12 +4,14 @@ import { LoginComponent} from '../app/login/login.component';
 import { MenuRegistroComponent} from '../app/menu-registro/menu-registro.component'
 import { HomeComponent } from '../app/home/home.component'
 import { ReservaCitasComponent } from '../app/reserva-citas/reserva-citas.component'
+import { CitasComponent } from '../app/citas/citas.component'
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'registro', component: MenuRegistroComponent},
-  {path: 'reserva', component: ReservaCitasComponent},
+  {path: 'reservacitas', component: ReservaCitasComponent},
+  {path: 'reservas', component: CitasComponent},
 ];
 
 @NgModule({
