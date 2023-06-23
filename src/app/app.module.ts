@@ -20,6 +20,7 @@ import { NavbarInternComponent } from './navbar-intern/navbar-intern.component';
 import { CortesComponent } from './servicios/cortes/cortes.component';
 import { PeluquerosComponent } from './servicios/peluqueros/peluqueros.component';
 import { ProductosComponent } from './servicios/productos/productos.component';
+import { HeaderPrinComponent } from './header-prin/header-prin.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ProductosComponent } from './servicios/productos/productos.component';
     CortesComponent,
     PeluquerosComponent,
     ProductosComponent,
+    HeaderPrinComponent,
 
   ],
   imports: [
