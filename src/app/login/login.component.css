@@ -1,14 +1,18 @@
 .login-frame {
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
-  border: 100px solid #ffffff;
+  padding: 10px;
+  border: 20px solid #ffffff;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #19f4fc;
+  background-image: url('../../assets/fondolo.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .login-frame h2 {
   text-align: center;
+  
 }
 
 .login-frame .user-image {
@@ -22,6 +26,7 @@
 
 .login-frame form {
   margin-top: 20px;
+  
 }
 
 .login-frame input[type="text"],
@@ -45,4 +50,12 @@
 
 .login-frame button[type="submit"]:hover {
   background-color: #45a049;
+}
+
+.login-container {
+  background-image: url('../../assets/barber.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
 }

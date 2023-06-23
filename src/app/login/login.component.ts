@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class LoginComponent {
   username: string;
   password: string;
+  loadingData!: string;
 
   constructor( private router: Router) {
     this.username = '';
@@ -19,8 +20,9 @@ export class LoginComponent {
   login() {
 
     this.router.navigate(['/cortes']); // Navegar a la página de inicio
-
+    
 
   }
 
 }
+

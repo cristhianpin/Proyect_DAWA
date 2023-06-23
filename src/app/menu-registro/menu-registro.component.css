@@ -1,7 +1,7 @@
   .registro-container {
-      max-width: 400px;
+      max-width: 500px;
       margin: 0 auto;
-      margin-top: 50px;
+      margin-top: 0px;
       
       
     }
@@ -13,6 +13,7 @@
     .registro-container form {
       display: flex;
       flex-direction: column;
+      
     }
     
     .registro-container form div {
@@ -45,5 +46,13 @@
       padding: 20px;
       background-color: #fff;
       color: #000;
+    }
+
+    .login-container {
+      background-image: url('../../assets/fondoRe.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+    
     }
   
