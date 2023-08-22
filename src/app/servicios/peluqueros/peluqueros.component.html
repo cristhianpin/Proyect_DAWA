@@ -1,0 +1,14 @@
+<h1>Listado de empleados de la Barbería</h1>
+
+<div class="clearfix">
+  <br>
+  <div class="container">
+    <div *ngFor="let peluquero of listaPeluqueros" class="box">
+      <img [src]="peluquero.imagen" alt="Foto peluquero">
+      <h2>{{ peluquero.nombre }} {{ peluquero.apellidos }}</h2>
+      <p>Especialidad: <strong>{{ peluquero.especialidad }}</strong></p>
+      <p>Años de experiencia: <strong>{{ peluquero.experiencia }}</strong></p>
+    </div>
+  </div>
+</div>
+
