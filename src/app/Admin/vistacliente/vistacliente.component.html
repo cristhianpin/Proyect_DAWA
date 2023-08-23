@@ -1,5 +1,48 @@
+
+<div class="container mt-5">
+
+  <div class="row align-items-center custom-border">
+  
+    <div class="col-md-3">
+      <div class="form-group ">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" name="clave" required><br><br>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="nombre">Direccion:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+      </div>
+    </div>
+  
+  <div class="col-md-6" style="padding: 10px;">
+    <button type="button" class="btn btn-primary btn-full-width" >
+         Agregar <i class="bi bi-person-plus" > </i>
+    </button>
+  </div>
+  
+  </div>
+
 <div class="overflow-x-auto p-4 border border-gray-300 rounded-lg">
-    Tabla Cliente
+   
+  
+  
   <table class="table table-xs">
       
       <thead>
@@ -9,6 +52,8 @@
           <th>correo</th>
           <th>Clave</th> 
           <th>Direccion</th> 
+          <th>Id_usuario</th>
+
           
         </tr>
       </thead> 
@@ -21,6 +66,8 @@
             <td>{{ cliente.correo }}</td>
             <td>{{ cliente.clave }}</td>
             <td>{{ cliente.direccion }}</td>
+            <td>{{ '2' }}</td>
+
 
         </tr>
       </tbody> 
@@ -28,33 +75,6 @@
      
     </table>
 
-    <hr>
-    <table class="table table-xs">
-        <thead>
-          <tr>
-              
-            <th></th> 
-            <th>#</th> 
-            <th>Nombre</th> 
-            <th>Apellido</th> 
-            <th>Direccion</th> 
-            
-          </tr>
-        </thead> 
-       <!--
-              <tbody>
-          <tr>
-            <tr *ngFor="let estudiante of datos">
-              <th>{{ estudiante.id }}</th>
-              <td>{{ estudiante.nombre }}</td>
-              <td>{{ estudiante.apellido }}</td>
-              <td>{{ estudiante.direccion }}</td>
-  
-          </tr>
-        </tbody> 
-        
-       --> 
-      </table>
-  </div>
-
+</div>
+</div>
 

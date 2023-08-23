@@ -12,8 +12,8 @@ export class RegistrarclienteService {
   
   constructor(private http: HttpClient) { }
 
-  agregarCliente(rescate: Clientes) {
-    return this.http.post(this.apiUrl, rescate);
+  agregarCliente(peluqueria: Clientes) {
+    return this.http.post(this.apiUrl, peluqueria);
   }
 
   getDatos(): Observable<any> {

@@ -1,3 +1,12 @@
+export interface Peluquero{
+  id_peluquero: string;
+  nombre: string;
+  correo: string;
+  clave: string;
+  id_usuario: string;
+
+}
+
 export class Peluqueros{
   id_peluquero: number;
   nombre: string;

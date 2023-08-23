@@ -19,7 +19,6 @@ import { CortesComponent } from './Serviciosprestados/cortes/cortes.component';
 import { PeluquerosComponent } from './Serviciosprestados/peluqueros/peluqueros.component';
 import { ProductosComponent } from './Serviciosprestados/productos/productos.component';
 import { HeaderPrinComponent } from './header-prin/header-prin.component';
-import { VistaAdminComponent } from './vista-admin/vista-admin.component';
 import { HttpClientModule } from '@angular/common/http';
 import { VistaclienteComponent } from './Admin/vistacliente/vistacliente.component';
 import { VistapeluquerosComponent } from './Admin/vistapeluqueros/vistapeluqueros.component';
@@ -40,7 +39,6 @@ import { VistacortesComponent } from './Admin/vistacortes/vistacortes.component'
     PeluquerosComponent,
     ProductosComponent,
     HeaderPrinComponent,
-    VistaAdminComponent,
     VistaclienteComponent,
     VistapeluquerosComponent,
     VistaproductosComponent,
