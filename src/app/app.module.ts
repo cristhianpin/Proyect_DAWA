@@ -8,19 +8,23 @@ import {  FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './Controlnavbars/header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MenuRegistroComponent } from './menu-registro/menu-registro.component';
 import { HomeComponent } from './home/home.component';
-import { ReservaCitasComponent } from './reserva-citas/reserva-citas.component';
 import { CitasComponent } from './citas/citas.component';
-import { CitasadminComponent } from './citasadmin/citasadmin.component';
-import { NavbarInternComponent } from './navbar-intern/navbar-intern.component';
-import { CortesComponent } from './servicios/cortes/cortes.component';
-import { PeluquerosComponent } from './servicios/peluqueros/peluqueros.component';
-import { ProductosComponent } from './servicios/productos/productos.component';
+import { NavbarInternComponent } from './Controlnavbars/navbar-intern/navbar-intern.component';
+import { CortesComponent } from './Serviciosprestados/cortes/cortes.component';
+import { PeluquerosComponent } from './Serviciosprestados/peluqueros/peluqueros.component';
+import { ProductosComponent } from './Serviciosprestados/productos/productos.component';
 import { HeaderPrinComponent } from './header-prin/header-prin.component';
+import { VistaAdminComponent } from './vista-admin/vista-admin.component';
+import { HttpClientModule } from '@angular/common/http';
+import { VistaclienteComponent } from './Admin/vistacliente/vistacliente.component';
+import { VistapeluquerosComponent } from './Admin/vistapeluqueros/vistapeluqueros.component';
+import { VistaproductosComponent } from './Admin/vistaproductos/vistaproductos.component';
+import { VistacortesComponent } from './Admin/vistacortes/vistacortes.component';
 
 @NgModule({
   declarations: [
@@ -30,14 +34,17 @@ import { HeaderPrinComponent } from './header-prin/header-prin.component';
     LoginComponent,
     MenuRegistroComponent,
     HomeComponent,
-    ReservaCitasComponent,
     CitasComponent,
-    CitasadminComponent,
     NavbarInternComponent,
     CortesComponent,
     PeluquerosComponent,
     ProductosComponent,
     HeaderPrinComponent,
+    VistaAdminComponent,
+    VistaclienteComponent,
+    VistapeluquerosComponent,
+    VistaproductosComponent,
+    VistacortesComponent,
 
   ],
   imports: [
@@ -46,7 +53,7 @@ import { HeaderPrinComponent } from './header-prin/header-prin.component';
     MatTableModule,
     MatIconModule,
     FormsModule,
-    
+    HttpClientModule
     
 
 

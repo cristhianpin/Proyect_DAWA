@@ -20,11 +20,11 @@ export class MenuRegistroComponent {
     telefono: '',
     direccion: '',
   
-  }
- // constructor( private router: Router) {
-    constructor( private registraclienteService : RegistrarclienteService){
+  };
+  //constructor( private router: Router) {
+    constructor(  private router: Router, private registraclienteService : RegistrarclienteService){
 
-  }
+  };
     registroExitoso = false;
     registroFallido = false;
 
@@ -60,8 +60,8 @@ export class MenuRegistroComponent {
 
     }
 
- menu() {
+ //menu() {
     
-   //this.router.navigate(['../home/']); // Navegar a la página de inicio
- }
+  // this.router.navigate(['../home/']); // Navegar a la página de inicio
+ //}
 }
