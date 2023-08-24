@@ -49,7 +49,7 @@ export class MenuRegistroComponent {
 
       };
 
-      this.registraclienteService.agregarCliente(nuevoregistro)
+      this.registraclienteService.postDatos(nuevoregistro)
         .subscribe(response =>{
           this.registroExitoso = true;
         this.registroFallido = false;

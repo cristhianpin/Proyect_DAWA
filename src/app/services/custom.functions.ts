@@ -14,7 +14,7 @@ export function getUniqueID(): string {
     const randomPart = (Math.floor(Math.random() * 90) + 10).toString();
   
     // Concatenar fecha, hora y parte aleatoria para obtener el ID único
-    const uniqueID = `${datePart}${hours}${randomPart}`;
+    const uniqueID = `${datePart}${randomPart}`;
     return uniqueID;
   }
   

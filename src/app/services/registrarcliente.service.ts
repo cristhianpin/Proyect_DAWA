@@ -12,9 +12,7 @@ export class RegistrarclienteService {
   
   constructor(private http: HttpClient) { }
 
-  agregarCliente(peluqueria: Clientes) {
-    return this.http.post(this.apiUrl, peluqueria);
-  }
+  
 
   getDatos(): Observable<any> {
     
@@ -22,7 +20,7 @@ export class RegistrarclienteService {
     
   }
 
-  postDatos(datos: any): Observable<any> {
+  postDatos(datos: Clientes): Observable<any> {
     return this.http.post(`${this.apiUrl}/Clientes`, datos);
   }
 }

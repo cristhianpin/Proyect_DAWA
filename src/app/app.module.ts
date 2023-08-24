@@ -53,6 +53,7 @@ import { NavadminComponent } from './Controlnavbars/navadmin/navadmin.component'
     MatTableModule,
     MatIconModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule
     
 
