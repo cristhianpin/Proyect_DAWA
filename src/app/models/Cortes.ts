@@ -1,3 +1,12 @@
+
+export interface corte{
+  id: string;
+  nombre: string;
+  precio: string;
+  id_corte: string;
+}
+
+
 export class Cortes {
   id_cortes: number;
   nombre: string;

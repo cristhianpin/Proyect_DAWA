@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DataService} from '../service/data.service';
+import { DataService} from '../services/data.service';
 
 @Component({
   selector: 'app-header-prin',
@@ -14,7 +14,7 @@ export class HeaderPrinComponent {
   ngOnInit(){
     this._dataServices.permiso$.subscribe(texto => {
       this.permisoPadre = texto;
-      console.log('estadoPermiso:',texto);
+      console.log('estadoPermiso:',texto); 
     })
   }
 
