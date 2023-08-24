@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent} from '../app/login/login.component';
 import { MenuRegistroComponent} from '../app/menu-registro/menu-registro.component'
 import { HomeComponent } from '../app/home/home.component'
-import { CitasComponent } from './citas/citas.component'
+import { CitasComponent } from './Serviciosprestados/citas/citas.component'
 import { CortesComponent } from './Serviciosprestados/cortes/cortes.component';
 import { PeluquerosComponent } from './Serviciosprestados/peluqueros/peluqueros.component';
 import { ProductosComponent } from './Serviciosprestados/productos/productos.component';

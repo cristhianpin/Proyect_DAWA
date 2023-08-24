@@ -13,7 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MenuRegistroComponent } from './menu-registro/menu-registro.component';
 import { HomeComponent } from './home/home.component';
-import { CitasComponent } from './citas/citas.component';
+import { CitasComponent } from './Serviciosprestados/citas/citas.component';
 import { NavbarInternComponent } from './Controlnavbars/navbar-intern/navbar-intern.component';
 import { CortesComponent } from './Serviciosprestados/cortes/cortes.component';
 import { PeluquerosComponent } from './Serviciosprestados/peluqueros/peluqueros.component';
@@ -24,6 +24,7 @@ import { VistaclienteComponent } from './Admin/vistacliente/vistacliente.compone
 import { VistapeluquerosComponent } from './Admin/vistapeluqueros/vistapeluqueros.component';
 import { VistaproductosComponent } from './Admin/vistaproductos/vistaproductos.component';
 import { VistacortesComponent } from './Admin/vistacortes/vistacortes.component';
+import { NavadminComponent } from './Controlnavbars/navadmin/navadmin.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { VistacortesComponent } from './Admin/vistacortes/vistacortes.component'
     VistapeluquerosComponent,
     VistaproductosComponent,
     VistacortesComponent,
+    NavadminComponent,
 
   ],
   imports: [
