@@ -13,7 +13,7 @@ export class PeluquerosService {
   
   constructor(private http: HttpClient) { }
 
-  agregarCliente(peluqueria: Peluquero) {
+  agregarProducto(peluqueria: Peluquero) {
     return this.http.post(this.apiUrl, peluqueria);
   }
 

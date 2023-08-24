@@ -1,3 +1,10 @@
+export interface Producto{
+  id_producto: string;
+  nombre: string;
+  precio: string;
+  cantidad: string;
+}
+
 export class Productos {
   id_producto: number;
   nombre: string;
