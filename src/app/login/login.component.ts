@@ -20,7 +20,7 @@ export class LoginComponent {
   login() {
     this._dataService.permiso$.emit('false')
 
-    this.router.navigate(['/cortes']); // Navegar a la página de inicio
+    this.router.navigate(['/admincliente']); // Navegar a la página de inicio
 
 
   }

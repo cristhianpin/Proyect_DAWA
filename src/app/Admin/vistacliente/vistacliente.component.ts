@@ -94,5 +94,15 @@ export class VistaclienteComponent {
 
   }
 
+  eliminarCliente(indice:number): void{
+    //this.listPersona.splice(id,1);
+    const clienteeliminado = this.cliente.splice(indice, 1)[0];
+
+    
+      this.cliente.push(clienteeliminado);
+  
+    
+
+  }
 
 }

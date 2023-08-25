@@ -64,8 +64,11 @@
           <th>Nombre</th> 
           <th>correo</th>
           <th>Clave</th> 
+          <th>Telefono</th>
           <th>Direccion</th> 
           <th>Id_usuario</th>
+          <th>Acciones </th>
+
 
           
         </tr>
@@ -82,6 +85,12 @@
             <td>{{ cliente.direccion }}</td>
             <td>{{ '2' }}</td>
 
+            <td>
+
+              <span class="cursor text-danger" (click)="eliminarCliente(i)">
+                <i class="bi bi-trash2-fill"></i>
+              </span>
+          </td>
 
         </tr>
       </tbody> 
