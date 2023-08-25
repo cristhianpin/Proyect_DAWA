@@ -5,7 +5,7 @@ export function getUniqueID(): string {
     const day = now.getDate().toString().padStart(2, '0');
     const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Enero es 0
     const year = now.getFullYear().toString().slice(-2);
-    const datePart = `${day}${month}${year}`;
+    const datePart = `${day}${year}`;
   
     // Obtener hora en formato HH
     const hours = now.getHours().toString().padStart(2, '0');

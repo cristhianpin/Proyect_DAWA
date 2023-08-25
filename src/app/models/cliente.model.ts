@@ -1,11 +1,11 @@
 export interface Clientes{
-  id_cliente: string;
+  idcliente: string;
   nombre: string;
   correo: string;
   clave: string;
   telefono: string;
   direccion: string;
-  id_usuario: string;
+  //id_usuario: string;
 
 }
 

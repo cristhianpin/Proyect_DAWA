@@ -1,41 +1,51 @@
 
 <div class="container mt-5">
 
+  <form action="#" method="post" (submit)="registrarCliente($event)">
+
   <div class="row align-items-center custom-border">
   
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group ">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="f_nombre">Nombre:</label>
+        <input type="text" id="f_nombre" name="nombre" required><br><br>
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="f_correo">Correo:</label>
+        <input type="email" id="f_correo" name="correo" required><br><br>
       </div>
     </div>
   
     <div class="col-md-3">
       <div class="form-group">
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo" required><br><br>
-      </div>
-    </div>
-  
-    <div class="col-md-3">
-      <div class="form-group">
-        <label for="clave">Clave:</label>
-        <input type="password" id="clave" name="clave" required><br><br>
+        <label for="f_clave">Clave:</label>
+        <input type="password" id="f_clave" name="clave" required><br><br>
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group">
-        <label for="nombre">Direccion:</label>
-        <input type="text" id="direccion" name="direccion" required><br><br>
+        <label for="f_telefono">Telefono:</label>
+        <input type="text" id="f_telefono" name="telefono" required><br><br>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="f_nombre">Direccion:</label>
+        <input type="text" id="f_direccion" name="direccion" required><br><br>
       </div>
     </div>
   
   <div class="col-md-6" style="padding: 10px;">
-    <button type="button" class="btn btn-primary btn-full-width" >
-         Agregar <i class="bi bi-person-plus" > </i>
-    </button>
-  </div>
+
+    <input type="submit" class="btn btn-primary btn-full-width" value="Registrarse"> <i class="bi bi-person-plus" > </i>
+
+     </div>
   
   </div>
 <br>
@@ -68,16 +78,22 @@
             <td>{{ cliente.nombre }}</td>
             <td>{{ cliente.correo }}</td>
             <td>{{ cliente.clave }}</td>
+            <td>{{ cliente.telefono}}</td>
             <td>{{ cliente.direccion }}</td>
             <td>{{ '2' }}</td>
 
 
         </tr>
       </tbody> 
-      
+      <hr>
+      - 
+      <hr>
+            
      
     </table>
-
+   
 </div>
-</div>
 
+ </form>
+  
+</div>
